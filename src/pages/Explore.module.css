@@ -1,0 +1,20 @@
+.container {
+    width: 300px;
+    height: 300px;
+  }
+  /* 미디어쿼리 */
+  @media screen and (max-width: 600px) {  /* 600px 이하 일 때 블랙 */
+    .container {
+      background-color: black;
+    }
+  }
+  @media screen and (min-width: 600px) and (max-width: 1000px) {  /* 600px이상 1000px이하 아래 일 때 레드 */
+    .container {
+      background-color: red;
+    }
+  }
+  @media screen and (min-width: 1000px) {  /* 1000px 이상 일 때 블루 */
+    .container {
+      background-color: blue;
+    }
+  }

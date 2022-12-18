@@ -1,0 +1,27 @@
+
+.container {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: overlay;
+    flex-direction: column;
+  }
+  .layout {
+    display: flex;
+    margin-top: 56px; /* 간격을 추가해 메뉴와 콘텐츠 표출 */
+    flex: 1;
+  }
+  .contents {
+    margin-left: 240px;
+    flex: 1;
+  }
+
+  @media screen and (max-width: 911px) {
+    .contents {
+      margin-left: 72px;
+    }
+  }
+  
